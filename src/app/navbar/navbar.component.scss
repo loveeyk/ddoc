@@ -1,8 +1,27 @@
 .navbar {
-    height: 200px;
+    // height: 100px;
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     background: black;
+    color: #dddddd;
+    list-style: none;
+
+    ul {
+        width: inherit;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .logo {
+            font-family: 'Poiret One', cursive;
+            margin-right: auto;
+        }
+
+        li {
+            display: inline-block;
+            margin: 1rem;
+        }
+    }
 }

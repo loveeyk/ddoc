@@ -2,4 +2,3 @@
 
 > :spaghetti: This is my personal food blog
 
-Hello World

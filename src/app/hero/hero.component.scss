@@ -14,8 +14,10 @@
         align-items: center;
         background: rgb(223 231 231 / 30%);
         border-bottom: 1px solid #ffffff8f;
+        backdrop-filter: blur(3px);
         span {
             padding: 1rem;
+            font-size: 20px;
         }
     }
 }

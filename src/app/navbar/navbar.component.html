@@ -1,11 +1,17 @@
 <nav class="navbar">
     <ul>
         <li class="logo">Daily Dose of Cuisine</li>
-        <li>Recipes</li>
-        <li>Reviews</li>
-        <li>About Us</li>
+        <li><a href="#">Recipes</a></li>
+        <li><a href="#">Reviews</a></li>
+        <li><a href="#">About Us</a></li>
+
         <li>
-            <fa-icon [icon]="searchicon"></fa-icon>
+            <input type="search" placeholder="recipes/reviews">
+        </li>
+        <li>
+            <button type="button">
+                <fa-icon [icon]="searchicon"></fa-icon>
+            </button>
         </li>
     </ul>
 </nav>
